@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #B2AFAF;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*  container class */
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+
+/* nav bar design start */
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: #163653;
+    color: #ffffff;
+}
+
+.nav-container {
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+
+.nav-item-container {
+    margin-left: auto;
+    display: flex;
+}
+.nav-items{
+    margin-left: 25px;
+}
+
+.brand h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.nav-items a,
+.nav-items a:visited,
+.nav-items a:active,
+.nav-items a:hover{
+font-size: 20px;
+font-weight: 400;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+}
+/* profile cord section */
+.profile-cord-container{
+    width: 100%;
+    height: 410px;
+    margin-top: 35px;
+    background: #D9D9D9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+}
+
+.profile-picture-container{
+  width: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-square-container{
+    width: 311px;
+    height: 310px;
+  border: 5px solid #163653;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.image-circle-container{
+    width: 250px;
+   height: 250px; 
+   border: 5px solid #16324D;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+.image-circle-container img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.class profile-info-container{
+ width: 930px;
+}
+.profile-info{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.profile-name{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.profile-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #555555;
+}
+.social-links{
+    margin-top: 35px;
+}
+.social-links img{
+    margin-right: 14px;
+}
+
+.skill-chips {
+    display: flex;
+    margin-top: 20px;
+}
+
+.skill-chip{
+    background:#163653;
+    color: #ffffff;
+    padding: 6px 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 14px;
+}
+.bio{
+font-weight: 400;
+font-size: 20px;
+color: #000000;
+margin-top: 39px;
+margin-right: 180px;
+}
+/* my skill section */
+.my-skill-section{
+    width: 100%;
+    height: 490px;
+    margin-top: 35px;
+    background: #D9D9D9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+.section-heading{
+     font-weight: 500;
+     font-size: 36px;
+     color: #333333;
+     letter-spacing: 0.04em;
+     text-transform: uppercase;
+     margin-bottom: 15px;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skill-item-container{
+    display: flex;
+    margin-top: 20px;
+ 
+}
+
+.icon-container{
+    border-radius: 3px;
+    overflow: hidden;
+}
+.text-container{
+    margin-left: 40px;
+}
+.text-container h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #333333;
+}
+.text-container h3{
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    color: #555555;
+    margin-top: 4px;
+}
+.text-container p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #555555;
+    margin-top: 12px;
+}
+/* my experience section */
+.my-experience-section{
+    width: 100%;
+    height: 490px;
+    margin-top: 35px;
+    background: #D9D9D9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+.experiences-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.experience-item{
+    margin-top: 22px;
+}
+.experience-item h1 {
+ font-style: normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 30px;
+ color: #333333;
+ letter-spacing: 0.04em;
+}
+
+.experience-item h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    line-height: 22px;
+    color: #333333;
+}
+.experience-item p{
+    width: 446px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #555555;
+}
